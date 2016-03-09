@@ -37,7 +37,7 @@ $(document).ready(function(){
 function mobileMenu(){
   console.log($('.site-header').height());
   if ($('.site-header').height() < 120){
-    $('.site-header').animate({height: "153px"}, 300);
+    $('.site-header').animate({height: "146px"}, 300);
   }
   else {
     $('.site-header').animate({height: "88px"}, 300);
