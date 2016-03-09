@@ -1,0 +1,105 @@
+.projects-page {
+
+  .sidebar-box {
+    @include sidebar-box($columns: 5, $side: right);
+
+    @media screen and (max-width: $medium-breakpoint){
+      padding: rem-calc(0 20);
+    }
+
+    @media screen and (max-width: $small-breakpoint){
+      background: none;
+    }
+  }
+
+  .projects-secondary {
+    @include grid-row();
+
+    @media screen and (max-width: $medium-breakpoint){
+      padding: rem-calc(0 20);
+    }
+  }
+
+  .projects-list {
+    @include grid-column($columns: 12);
+    padding: rem-calc(72-9 0);
+    display: flex;
+    flex-wrap: wrap;
+
+    &__header {
+      width: 100%;
+    }
+
+    &__project {
+      padding-right: 1rem;
+      margin-top: rem-calc(48);
+      width: 50%;
+
+      &__logo {
+        float: left;
+        width: percentage(2/6);
+        padding-top: percentage(2/6);
+        background-color: $light-gray;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 60% 60%;
+      }
+
+      &__text {
+        float: left;
+        width: percentage(4/6);
+        padding-left: rem-calc(16);
+      }
+
+      &__name {
+        margin-top: rem-calc(-5);
+      }
+
+      &__tagline {
+        font-size: rem-calc(20);
+      }
+    }
+
+    &--current-projects {
+      @include grid-column($columns: 6);
+
+      @media screen and (max-width: $small-breakpoint){
+        width: 100%;
+        padding: rem-calc(20 10);
+      }
+
+      .projects-list__project {
+        width: 100%;
+      }
+    }
+  }
+
+  .choose-project {
+    @include grid-column($columns: 4, $offset: 2);
+    padding: rem-calc(72-9 0);
+
+    @media screen and (max-width: $small-breakpoint){
+      display: none;
+      width: 0%;
+    }
+
+    .accordion {
+      margin-top: rem-calc(48);
+    }
+  }
+
+  .work-with-us {
+
+    &__header {
+      margin: rem-calc(72 0 32);
+    }
+
+    &__text {
+      margin-bottom: rem-calc(24);
+    }
+
+    &__button {
+      width: auto;
+    }
+  }
+}

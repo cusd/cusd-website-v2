@@ -1,0 +1,138 @@
+.site-header {
+  height: 92px;
+  overflow: hidden;
+  background: $white;
+  // box-shadow: $subtle-shadow;
+
+  @media #{$medium-up} {
+    max-height: 92px;
+  }
+  
+  &__wrapper {
+    @include grid-row();
+  }
+}
+
+.site-logo {
+  @include grid-column($columns:5);
+
+  @media #{$medium-up} {
+    @include grid-column($columns:2);
+  }
+  
+  @media #{$large-up} {
+    @include grid-column($columns:5);
+  }
+
+  @media screen and (max-width: $small-breakpoint){
+    width: 55%;
+  }
+  
+  &__image {
+    float: left;
+    max-height: rem-calc(60);
+    margin: rem-calc(16) 10px;
+  }
+
+  &__text {
+    float: left;
+    margin: rem-calc(22 0 22 0);
+    font-size: rem-calc(20);
+    line-height: rem-calc(25);
+    font-family: $font-family-sans-serif;
+    font-weight: $font-weight-normal;
+    color: $mid-gray;
+    display: block;
+  }
+}
+
+.main-nav {
+  display: none;
+
+  @media #{$medium-up} {
+    display: block;
+    height: 100%;
+    @include grid-column($columns:10);
+
+    &__menu { 
+      list-style: none;
+      float: right;
+
+      > li { 
+        float: right;
+        // margin: rem-calc(0 6);
+
+        &:first-child {
+          width: rem-calc(152);
+          margin-right: 0;
+          margin-left: rem-calc(24);
+        }
+
+        > a:not(.button) {
+          display: block;
+          height: 100%;
+          width: 100%;
+          line-height: rem-calc(25);
+          padding: rem-calc(34 24);
+          font-family: $font-family-sans-serif;
+          font-weight: $font-weight-normal;
+          font-size: rem-calc(18);
+          text-align: center;
+          color: $mid-gray;
+          transition: all 300ms;
+
+          &:hover {
+            background: $keppel-tint;
+            color: $dark-gray;
+          }
+        }
+
+        > .button { 
+          margin: rem-calc(28 0);
+        }
+      }
+    }
+  }
+
+  @media #{$large-up} {
+    @include grid-column($columns:7);
+  }
+
+  padding-right: rem-calc(10 0);
+}
+
+.mobile-nav {
+  float: right;
+  margin-right: rem-calc(10);
+  width: rem-calc(120);
+
+  .button { 
+    margin: rem-calc(40 0);
+  }
+
+  @media #{$medium-up} {
+    display: none;
+  }
+}
+
+.mobile-buttons {
+  width: 100%;
+  overflow: auto;
+
+  @media #{$medium-up} {
+    display: none;
+  }
+
+  .mobile-button {
+    float: right;
+    width: 33%;
+    text-align: center;
+    transition: all 300ms;
+    padding: rem-calc(20 0);
+
+    &:hover {
+      background: $keppel-tint;
+      color: $dark-gray;
+    }
+  }
+}

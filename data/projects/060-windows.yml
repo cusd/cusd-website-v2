@@ -1,0 +1,23 @@
+name: Windows
+logo: project-logos/futures.svg
+color: "#FCD83F"
+tagline: Studying the feasiblity and cost of thermosensitive technologies
+hero_image: "project-photos/windows-hero.jpg"
+lede: "Project Olin aims to assess the feasibility of implementing energy-saving window technologies in Olin Hall, the home of the Chemical Engineering department on Cornell’s campus."
+description: "<p> We are working to accomplish this by creating an energy model of Olin Hall on DesignBuilder, an energy-modeling software. We will then manipulate the model to see how different technologies or modifications, such as window treatments, affect the building’s energy consumption.</p> <p>Started in Fall 2015, the project involves several key stages. The first of these is gathering measurements and HVAC (heating, ventilation, and cooling) information for Olin Hall to use in creating the model. Next, we will create the model using this information. We will then move on to our third stage: manipulating the model to determine how changes in window technology will affect energy use. Finally, based on these findings, we will make a recommendation for Olin’s windows, based on energy savings, cost, and other important factors.</p> <p>Currently, we are in the second stage of this process: creating the model. We plan to complete the fourth stage by April 2015.</p>"
+
+photos:
+  - url: project-photos/windows-1.jpg
+    des:
+  - url: project-photos/windows-2.jpg
+    des:
+  - url: project-photos/windows-3.jpg
+    des:
+impact:
+ stats:
+    - title: Number of windows on Olin Hall
+      number: 200
+    - title: Years involved
+      number: 5
+    - title: Net area of building
+      number: 108,452 sq ft
