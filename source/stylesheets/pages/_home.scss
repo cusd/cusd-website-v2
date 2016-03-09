@@ -17,7 +17,6 @@
 
  	h1 ~ h2 {
  		font-size: rem-calc(32);
- 		padding-left: 10%;
     text-align: center;
     @media #{$small-only} {font-size: rem-calc(24);
       padding-left: 2%;
