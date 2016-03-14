@@ -1,0 +1,23 @@
+name: Lights
+logo: project-logos/lights.svg
+color: "#8590B7"
+tagline: "Testing the effectiveness of endangered amphibian conservation at Cornell"
+hero_image: project-photos/lights-hero.jpg
+lede: "FILL ME IN"
+description:
+  "<p> FILL ME IN</p>"
+photos:
+  - url: project-photos/lights-1.jpg
+    des:
+  - url: project-photos/lights-2.jpg
+    des:
+  - url: project-photos/lights-3.jpg
+    des:
+impact:
+  stats:
+    - title: Number of housing units  FILL ME IN
+      number: 
+    - title: Reduction in heating and cooling energy demand  FILL ME IN
+      number: 
+    - title: Hot water provided by in-home solar water heaters FILL ME IN
+      number: 

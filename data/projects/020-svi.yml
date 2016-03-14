@@ -1,0 +1,23 @@
+name: Smart Village India
+logo: project-logos/svi.svg
+color: "#8590B7"
+tagline: "Creating smart, sustainable resource management systems in a resource limited region"
+hero_image: project-photos/svi-hero.jpg
+lede: "FILL ME IN"
+description:
+  "<p> FILL ME IN</p>"
+photos:
+  - url: project-photos/svi-1.jpg
+    des:
+  - url: project-photos/svi-2.jpg
+    des:
+  - url: project-photos/svi-3.jpg
+    des:
+impact:
+  stats:
+    - title: Number of housing units  FILL ME IN
+      number: 
+    - title: Reduction in heating and cooling energy demand  FILL ME IN
+      number: 
+    - title: Hot water provided by in-home solar water heaters FILL ME IN
+      number: 
