@@ -26,6 +26,11 @@
       line-height: rem-calc(14);
       font-weight: $font-weight-light;
     }
+
+    @media #{$small-only} {
+      @include grid-column($columns:5);
+      padding-left: rem-calc(12);
+    }
   }
 
   &__copyright {
@@ -38,6 +43,10 @@
       line-height: rem-calc(25);
       font-weight: $font-weight-light;
       font-family: $body-font-family;
+    }
+    @media #{$small-only} {
+      @include grid-column($columns:7);
+      padding-left: rem-calc(28);
     }
   }
 }

@@ -54,7 +54,7 @@
 				margin: rem-calc(-5 0 0);
 			}
 
-			&__title, &__team{
+			&__major, &__position, &__team, &__email, &__linkedin {
 				display: block;
 				font-size: rem-calc(18);
 				line-height: rem-calc(25);
@@ -85,13 +85,13 @@
 					}
 				}
 
-				&.twitter {
+				&.linkedin {
 					margin: rem-calc(0 10 0 2+17+4);
 
 					&:before {
 						left: rem-calc(-17-4);
 						width: rem-calc(17);
-						background: image-url("icons/twitter.png") center center / rem-calc(17) rem-calc(14) no-repeat;
+						background: image-url("icons/linkedin.png") center center / rem-calc(17) rem-calc(17) no-repeat;
 					}
 				}
 			}
