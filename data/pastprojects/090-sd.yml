@@ -4,7 +4,7 @@ color: "#5B264B"
 tagline: "The inspiration for CUSD"
 hero_image: ""
 lede: ""
-description:
+description: Insert cool description here
   ""
 photos:
   - url: 
@@ -15,9 +15,9 @@ photos:
     des:
 impact:
   stats:
-    - title: 
-      number: 
-    - title: 
-      number: 
-    - title: 
-      number: 
+    - title: Title 1
+      number: 100
+    - title: Title 2
+      number: 101
+    - title: Title 3
+      number: 102
