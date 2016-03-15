@@ -2,16 +2,16 @@ name: Sustainable Neighborhoods Nicaragua
 logo: project-logos/snn.svg
 color: "#E0406E"
 tagline: "A model of healthy, sustainable, and low-cost housing for South America"
-hero_image: ""
+hero_image: "project-photos/snn-hero.jpg"
 lede: ""
 description: Insert cool description here
   ""
 photos:
-  - url: 
+  - url: project-photos/snn-1.jpg
     des: 
-  - url: 
+  - url: project-photos/snn-2.jpg
     des:
-  - url: 
+  - url: project-photos/snn-3.jpg
     des:
 impact:
   stats:

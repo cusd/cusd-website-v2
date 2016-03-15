@@ -2,16 +2,16 @@ name: Solar Decathalon
 logo: project-logos/sd.svg
 color: "#5B264B"
 tagline: "The inspiration for CUSD"
-hero_image: ""
+hero_image: "project-photos/sd-hero.jpg"
 lede: ""
 description: Insert cool description here
   ""
 photos:
-  - url: 
+  - url: project-photos/sd-1.jpg
     des: 
-  - url: 
+  - url: project-photos/sd-2.jpg
     des:
-  - url: 
+  - url: project-photos/sd-3.jpg
     des:
 impact:
   stats:

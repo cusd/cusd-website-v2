@@ -2,16 +2,16 @@ name: Sustainable Research Facility
 logo: project-logos/srf.svg
 color: "#58C5C4"
 tagline: "A first-of-its-kind facility for interdisciplinary sustainability research"
-hero_image: ""
+hero_image: "project-photos/srf-hero.jpg"
 lede: ""
 description: Insert cool description here
   ""
 photos:
-  - url: 
+  - url: project-photos/srf-1.jpg
     des: 
-  - url: 
+  - url: project-photos/srf-2.jpg
     des:
-  - url: 
+  - url: project-photos/srf-3.jpg
     des:
 impact:
   stats:

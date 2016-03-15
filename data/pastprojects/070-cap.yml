@@ -2,16 +2,16 @@ name: Climate Action Plan
 logo: project-logos/cap.svg
 color: "#225D2F"
 tagline: "Advancing Cornell’s goal of net-zero energy by 2035"
-hero_image: ""
+hero_image: "project-photos/cap-hero.jpg"
 lede: ""
 description: Insert cool description here
   ""
 photos:
-  - url: 
+  - url: project-photos/cap-1.jpg
     des: 
-  - url: 
+  - url: project-photos/cap-2.jpg
     des:
-  - url: 
+  - url: project-photos/cap-3.jpg
     des:
 impact:
   stats:

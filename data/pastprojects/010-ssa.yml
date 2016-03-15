@@ -2,16 +2,16 @@ name: Schoolhouse South Africa
 logo: project-logos/ssa.svg
 color: "#F6AA20"
 tagline: "An early childhood development center for Cosmo City"
-hero_image: ""
+hero_image: "project-photos/ssa-hero.jpg"
 lede: ""
 description: Insert cool description here
   ""
 photos:
-  - url: 
+  - url: project-photos/ssa-1.jpg
     des: 
-  - url: 
+  - url: project-photos/ssa-2.jpg
     des:
-  - url: 
+  - url: project-photos/ssa-3.jpg
     des:
 impact:
   stats:
