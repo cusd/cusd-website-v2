@@ -3,11 +3,11 @@ logo: project-logos/svi.svg
 color: "#8590B7"
 tagline: "Creating smart, sustainable resource management systems in a resource limited region"
 hero_image: project-photos/svi-hero.jpg
-lede: "FILL ME IN"
+lede: "The SVI team is working to research, design, and implement sustainable resource management systems in a small, resource-limited village in the Chikkaballpur district of Karnataka, India. Among the core solutions SVI intends to deliver are adequate water storage, sustainable energy practices, solid waste management, and a cost-efficient irrigation system."
 description:
-  "<p>The SVI team is working to research, design, and implement sustainable resource management systems in a small, resource-limited village in the Chikkaballpur district of Karnataka, India. Among the core solutions SVI intends to deliver are adequate water storage, sustainable energy practices, solid waste management, and a cost-efficient irrigation system.</p>
-
-  <p>As water is the most essential and critical component of the multidimensional issues the village faces, this semester will be focused on research and design behind rainwater harvesting systems to provide villagers with a sustainable source of clean water. SVI will simultaneously work on collecting the necessary data to establish a long term strategy for the project./p>"
+  "<p>
+  As water is the most essential and critical component of the multidimensional issues the village faces, this semester will be focused on research and design behind rainwater harvesting systems to provide villagers with a sustainable source of clean water. SVI will simultaneously work on collecting the necessary data to establish a long term strategy for the project.
+  </p>"
 photos:
   - url: project-photos/svi-1.jpg
     des:
@@ -17,9 +17,9 @@ photos:
     des:
 impact:
   stats:
-    - title: Number of housing units  FILL ME IN
+    - title: Number of housing units
       number: 
-    - title: Reduction in heating and cooling energy demand  FILL ME IN
+    - title: Reduction in heating and cooling energy demand 
       number: 
-    - title: Hot water provided by in-home solar water heaters FILL ME IN
+    - title: Hot water provided by in-home solar water heaters
       number: 
