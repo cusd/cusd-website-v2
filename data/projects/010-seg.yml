@@ -7,8 +7,9 @@ lede: "In a partnership introduced by recent Cornell alumni, CUSD is joining for
 description:
   "<p>
     This school will be designed by graduate and undergraduate students at Cornell, and will be built by Cornell students working with local contractors.  Through an empathetic research process and continual community engagement, this school will be technologically advanced and self-sustaining while still representing African architecture and the desires of the community.   The idea is to create a place that not only helps girls build their future, but teach them how to contribute back to their own communities, invest in their own educational system, and provide a space where they feel appreciated and safe.
-  </p>
-  <p>
+  </p><br>
+  <iframe src='https://player.vimeo.com/video/159445965' width=600 height=281 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <p><br>
     Over the past several months, members of CUSD have been working with an NGO called Voices of African Mothers (VAM) to develop the vision for VAM Village, a self-sustaining girls’ campus in Sogakope, Ghana. The vision for VAM Village is an ecological educational center that will draw people in from all over Ghana to promote and support women’s empowerment. Its plans include schooling for girls from nursery through junior high school, conference centers, and farmland. CUSD aims to design and construct a multi-purpose academic building for this campus. Our design for the school will address the social, environmental, and cultural concerns of the people that occupy it.
   </p>
   <p>
@@ -32,7 +33,7 @@ impact:
      - title: 2nd Semester of Project (Design Phase)
        number:
      - title: "Human-Centered Design: Environment, Education, Healthcare, and Economy"
-       number: 
+       number:
      - title: "200 Acre plot reaching 700 students"
        number: 
      - title: "Sustainable design structures: Rainwater capture, parabolic solar panels with thermal mass storage, biodigestor, Porous Pavement, Riparian Buffering"
