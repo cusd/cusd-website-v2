@@ -7,6 +7,9 @@ lede: "The SVI team is working to research, design, and implement sustainable re
 description:
   "<p>
   As water is the most essential and critical component of the multidimensional issues the village faces, this semester will be focused on research and design behind rainwater harvesting systems to provide villagers with a sustainable source of clean water. SVI will simultaneously work on collecting the necessary data to establish a long term strategy for the project.
+  </p>
+  <p>
+  Some of the core challenges the village currently faces include relying solely on rainwater from the monsoon season, and extracting that water from bore wells in the ground. Not only is this method unsustainable because it depletes the water table, but the water is also often contaminated with dangerous levels of fluoride and bacteria from lack of a proper waste management system. Their primary agricultural crops include millet and table grapes and involve water intensive cultivation. While the village is technically on the grid, they only receive about three hours of electricity per day, and do not utilize the great potential that exists for solar and wind energy systems.
   </p>"
 photos:
   - url: project-photos/svi-1.jpg
@@ -17,9 +20,9 @@ photos:
     des:
 impact:
   stats:
-    - title: Number of housing units
-      number: 
-    - title: Reduction in heating and cooling energy demand 
-      number: 
-    - title: Hot water provided by in-home solar water heaters
-      number: 
+    - title: Population of Village
+      number: 233
+    - title: Number of Households/ Families
+      number: 48
+    - title: Average Natural Rainfall per Year
+      number: 785mm
