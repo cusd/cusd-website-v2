@@ -50,16 +50,16 @@ $(function() {
   var current = 0;
 
   function nextBackground() {
-    headerImage.fadeOut(300, function() {
+    headerImage.fadeOut(600, function() {
       headerImage.css('background-image', backgrounds[current = ++current % backgrounds.length]).fadeIn(800);
       headerImage.css('background-attachment', 'fixed');
       headerImage.css('background-postion', 'center center');
       headerImage.css('background-size', 'cover');
-      setTimeout(nextBackground, 5000);
+      setTimeout(nextBackground, 4000);
     })
   }
 
-  setTimeout(nextBackground, 5000);
+  setTimeout(nextBackground, 4000);
   headerImage.css('background-image', backgrounds[0])
 
 });
