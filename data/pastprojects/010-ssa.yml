@@ -3,9 +3,15 @@ logo: project-logos/ssa.svg
 color: "#F6AA20"
 tagline: "An early childhood development center for Cosmo City"
 hero_image: "project-photos/ssa-hero.jpg"
-lede: ""
-description: Insert cool description here
-  ""
+lede: "The socially-minded Schoolhouse South Africa (SSA) project resulted in the construction of a 6,000 square foot early childhood development center and teacher training facility in Cosmo City, South Africa. Grown out of collaboration with local groups and residents, the schoolhouse is a beacon for education and passive sustainable technologies, and is a landmark and a source of pride for the developing community.  The schoolhouse accommodates 80 students between the ages of 1 and 7."
+description: 
+  "<p>
+  The building's structure uses earth-filled polypropylene bags placed inside EcoBeam frames. This extremely low-cost system increases the building's thermal mass and eliminated the need for active heating or cooling systems. 'By filling the bags with soil excavated during the foundation-laying process, we reduced waste and transportation while transforming residual matter into a high-performing and resilient wall system,' said the project’s engineering coordinator Daniel Lu. 
+  </p>
+  <p>
+  The design placed a reinforced concrete ring beam atop columns integrated into the wall system in order to increase the building’s interior spans and prolong its useful life. Clerestory windows and child-height portal windows eliminated the need for electric lighting, though it has since been added to accommodate the building’s increased nighttime usage. 
+  </p>"
+
 photos:
   - url: project-photos/ssa-1.jpg
     des: 
@@ -15,9 +21,9 @@ photos:
     des:
 impact:
   stats:
-    - title:  Title 1
-      number: 100
-    - title: Title 2
-      number: 101
-    - title: Title 3
-      number: 102
+    - title: Total Building Area
+      number: "6,000 sq ft"
+    - title: Fundraising Effort
+      number: "Over $500,000" 
+    - title: School Size
+      number: "4 classrooms for 80 students"
