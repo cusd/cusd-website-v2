@@ -1,7 +1,7 @@
 .connect {
 
 	.sidebar-box {
-		@include sidebar-box($columns: 3, $side: left);
+		@include sidebar-box($columns: 2.5, $side: left);
 
 		@media screen and (max-width: $medium-breakpoint){
       		background: none;
@@ -19,11 +19,11 @@
 	}
 
 	.contacts {
-		@include grid-column($columns: 8, $offset: 2);
+		@include grid-column($columns: 9, $offset: 1);
 		margin: rem-calc(24 0 72);
 		display: flex;
 		flex-wrap: wrap;
-		align-items: flex-start;
+		//align-items: flex-start;
 
 		@media screen and (max-width: $medium-breakpoint){
       		width: 100%;
@@ -39,6 +39,7 @@
 		&__photo {
 			width: 25%;
 			float: left;
+
 
 			@media screen and (max-width: $small-breakpoint){
       			margin-bottom: rem-calc(10);
