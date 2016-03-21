@@ -43,3 +43,23 @@ function mobileMenu(){
     $('.site-header').animate({height: "88px"}, 300);
   }
 }
+
+$(function() {
+  var headerImage = $('.photo-strip--showcase');
+  var backgrounds = ['url(/images/photostrips/ps1.jpg)', 'url(/images/photostrips/ps4.jpg)', 'url(/images/photostrips/ps3.jpg)'];
+  var current = 0;
+
+  function nextBackground() {
+    headerImage.fadeOut(300, function() {
+      headerImage.css('background-image', backgrounds[current = ++current % backgrounds.length]).fadeIn(800);
+      headerImage.css('background-attachment', 'fixed');
+      headerImage.css('background-postion', 'center center');
+      headerImage.css('background-size', 'cover');
+      setTimeout(nextBackground, 5000);
+    })
+  }
+
+  setTimeout(nextBackground, 5000);
+  headerImage.css('background-image', backgrounds[0])
+
+});
