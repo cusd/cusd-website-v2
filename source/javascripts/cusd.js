@@ -44,7 +44,42 @@ function mobileMenu(){
   }
 }
 
-// MAKE THE COVER IMAGE CHANGE WITH A DELAY
+var valueList = ['.values-section__value--icon-impact', '.values-section__value--icon-diversity', '.values-section__value--icon-efficiency', '.values-section__value--icon-sustainability', '.values-section__value--icon-collaboration', '.values-section__value--icon-responsibility', '.values-section__value--icon-innovation', '.values-section__value--icon-engagement'];
+var mantis = "#81C36C";
+var oceanGreen = "#3FAB6D";
+var gulfStream = "#84C3BB";
+var mantisTint = "#C6E4BD";
+var oceanGreenTint =  "#A8D9BD";
+var gulfStreamTint = "#C8E4E0";
+
+var currVal = 0;
+$(document).ready(function () {
+  window.setInterval(function() {
+    changeIcon(currVal);
+    currVal++;
+  }, 2000);
+})
+
+function changeIcon(x) {
+  if (x < valueList.length) {
+    var val = valueList[x];
+    if (x == 0 || x == 3 || x == 6) {
+      $(val).css('background-color', mantis);
+    }
+    else if (x == 1 || x == 4 || x == 7) {
+      $(val).css('background-color', oceanGreen);
+    }
+    else {
+      $(val).css('background-color', gulfStream);
+    }
+  }
+  else {
+    currVal = 0;
+  }
+}
+
+// =================================================================================
+// Making cover image change with delay
 // $(function() {
 //   var headerImage = $('.photo-strip--showcase');
 //   var backgrounds = ['url(/images/photostrips/ps1.jpg)', 'url(/images/photostrips/ps4.jpg)', 'url(/images/photostrips/ps3.jpg)'];
