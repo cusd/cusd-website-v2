@@ -30,10 +30,13 @@ photos:
     des:
 impact:
   stats:
-     - title: 2nd Semester of Project (Design Phase)
-       number:
-     - title: "Human-Centered Design: Environment, Education, Healthcare, and Economy"
-       number:
-     - title: "200 Acre plot reaching 700 students"
-       number: 
-     - title: "Sustainable design structures: Rainwater capture, parabolic solar panels with thermal mass storage, biodigestor, Porous Pavement, Riparian Buffering"
+     - title: Number of Acres
+       number: 200
+     - title: Undergraduate Colleges Represented
+       number: 5
+     - title: Systems Engineers Working On Project
+       number: 9
+  quote:
+    text: "Sustainable design structures include rainwater capture, parabolic solar panels with thermal mass storage, Biodigestor, porous pavement and riparian buffering."
+    author: Claudia Nielsen,
+    relation: Project Director

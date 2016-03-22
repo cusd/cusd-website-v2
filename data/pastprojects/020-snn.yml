@@ -3,9 +3,14 @@ logo: project-logos/snn.svg
 color: "#E0406E"
 tagline: "A model of healthy, sustainable, and low-cost housing for South America"
 hero_image: "project-photos/snn-hero.jpg"
-lede: ""
-description: Insert cool description here
-  ""
+lede: "SosteNica and Cornell University Sustainable Design (CUSD)-SNN teamed up to design and construct a model home that relies on values of sustainability, health, beauty, and cultural continuity, while also addressing affordability. The model house will be built using local materials – earthen adobe walls – respecting tradition, using less embodied energy, and protecting inhabitants from tropical heat. "
+description:
+  "<p>
+  The house includes four eco-technologies: a composting toilet, an efficient wood burning stove, rainwater capture, and grey water treatment. In addition, a patio garden provides food for the family, improving their food security and diversifies their diet with fruits and vegetables. The garden uses food forest permaculture principles, is fertilized by the compost from the toilet, and is watered from the grey water treatment system.  This house is a showcase for more than 100 housing cooperatives throughout Nicaragua.
+  </p>
+  <p>
+  In the Spring of 2012, students conducted thorough research during the semester and planned for a two week site visit to Nagarote in the Summer. The next Fall, a team in Ithaca planned the building designs which were successfully constructed when a group of 20 students travelled to Nicaragua in January. The construction has now been standing for over three years and recently withstood a strong earthquake that destroyed many building in the area.
+  </p>"
 photos:
   - url: project-photos/snn-1.jpg
     des: 
@@ -15,9 +20,9 @@ photos:
     des:
 impact:
   stats:
-    - title: Title 1
-      number: 100
-    - title: Title 2
-      number: 101
-    - title: Title 3
-      number: 102
+    - title: Constructed
+      number: January 2013
+    - title: Location
+      number: "Nagarote, Nicaragua"
+    - title: Partnership with
+      number: SosteNica

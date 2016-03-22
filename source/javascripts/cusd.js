@@ -44,22 +44,23 @@ function mobileMenu(){
   }
 }
 
-$(function() {
-  var headerImage = $('.photo-strip--showcase');
-  var backgrounds = ['url(/images/photostrips/ps1.jpg)', 'url(/images/photostrips/ps4.jpg)', 'url(/images/photostrips/ps3.jpg)'];
-  var current = 0;
+// MAKE THE COVER IMAGE CHANGE WITH A DELAY
+// $(function() {
+//   var headerImage = $('.photo-strip--showcase');
+//   var backgrounds = ['url(/images/photostrips/ps1.jpg)', 'url(/images/photostrips/ps4.jpg)', 'url(/images/photostrips/ps3.jpg)'];
+//   var current = 0;
 
-  function nextBackground() {
-    headerImage.fadeOut(600, function() {
-      headerImage.css('background-image', backgrounds[current = ++current % backgrounds.length]).fadeIn(800);
-      headerImage.css('background-attachment', 'fixed');
-      headerImage.css('background-postion', 'center center');
-      headerImage.css('background-size', 'cover');
-      setTimeout(nextBackground, 4000);
-    })
-  }
+//   function nextBackground() {
+//     headerImage.fadeOut(500, function() {
+//       headerImage.css('background-image', backgrounds[current = ++current % backgrounds.length]).fadeIn(1000);
+//       headerImage.css('background-attachment', 'fixed');
+//       headerImage.css('background-postion', 'center center');
+//       headerImage.css('background-size', 'cover');
+//       setTimeout(nextBackground, 4000);
+//     })
+//   }
 
-  setTimeout(nextBackground, 4000);
-  headerImage.css('background-image', backgrounds[0])
+//   setTimeout(nextBackground, 4000);
+//   headerImage.css('background-image', backgrounds[0])
 
-});
+// });
