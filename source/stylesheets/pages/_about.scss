@@ -118,4 +118,24 @@
       font-weight: $font-weight-bold;
     }
   }
+
+  .teams-section {
+    @include grid-row();
+
+    &__header {
+      @include grid-column($columns: 3);
+      height: rem-calc(400);
+      position: relative;
+
+      h2 {
+        position: absolute;
+        top: 50%;
+        transform: translate3d(0,-50%,0);
+
+        @media #{$small-only} {
+          padding-left: 22%;
+        }
+      }
+    }
+  }
 }
