@@ -1,7 +1,7 @@
 .about {
 
   .sidebar-box {
-    @include sidebar-box($columns: 4, $side: left);
+    @include sidebar-box($columns: 3.5, $side: left);
 
     @media screen and (max-width: $medium-breakpoint){
       background: none;
@@ -9,7 +9,7 @@
   }
 
   .quote {
-    @include grid-column($columns: 4, $offset: -0.5);
+    @include grid-column($columns: 3.5, $offset: -0.5);
     padding-top: rem-calc(160);
 
     @media screen and (max-width: $medium-breakpoint){
@@ -19,7 +19,7 @@
   }
 
   .mission {
-    @include grid-column($columns: 6, $offset: 2);
+    @include grid-column($columns: 6, $offset: 1.5);
     padding: rem-calc(72 0);
 
     @media screen and (max-width: $medium-breakpoint){
@@ -57,7 +57,8 @@
     }
 
     &__values {
-      @include grid-column($columns: 8, $offset: 1);
+      @include grid-column($columns: 8, $offset: .5);
+      //padding: rem-calc(40 0);
     }
 
     &__value {
