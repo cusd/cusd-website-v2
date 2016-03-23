@@ -4,39 +4,56 @@
 
   &__cta {
     @include grid-column($columns: 4);
-    padding: rem-calc(72 0);
+    padding: rem-calc(60 0 42 0);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     @media #{$small-only} {
-      padding: rem-calc(48 0);
+      padding: rem-calc(32 0 24);
 
     }
 
     &__title {
-      margin-bottom: rem-calc(48);
+      margin-bottom: rem-calc(32);
       text-align: center;
 
       @media #{$small-only} {
         margin-bottom: rem-calc(18);
+        font-size: rem-calc(28);
       }
     }
 
     &__description {
-      margin: 0 auto rem-calc(32);
+      margin: 0 auto rem-calc(18);
       text-align: center;
       max-width: 50%;
 
       @media #{$small-only} {
-      max-width: 75%;
+      display: none;
       }
+    }
+
+    &__description__mobile {
+      display: none;
+
+      @media #{$small-only} {
+      max-width: 75%;
+      display: block;
+      text-align: center;
+      margin: 0 auto rem-calc(18);
+      }
+
     }
 
     &__button {
       display: block;
       width: 50%;
       margin: 0 auto;
+
+      @media #{$small-only} {
+        width: 65%;
+      }
     }
   }
 }
