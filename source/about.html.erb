@@ -74,13 +74,13 @@ title: About
     <div class="teams-section">
         <% data.teams.each do |project| %>
           <article class="teams-section__project">
-            <% link_to "/teams/#{project[0].split('-')[1]}" do %>
+        
               <div class="teams-section__logo <%= project[0].split('-')[1] %>" style="background-image: url(/images/<%= project[1].logo %>); background-color: <%= project[1].color %>"></div>
-            <% end %>
+          
             <div class="teams-section__text">
-              <% link_to "/teams/#{project[0].split('-')[1]}" do %>
+            
               <h3 class="teams-section__name"><%= project[1].name %></h3>
-              <% end %>
+           
               <span class="teams-section__tagline"><%= project[1].tagline %></span>
             </div>
           </article>
