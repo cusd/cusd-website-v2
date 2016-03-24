@@ -42,7 +42,7 @@
 
     &__header {
       @include grid-column($columns: 3);
-      height: rem-calc(340);
+      height: rem-calc(298);
       position: relative;
 
       h2 {
@@ -57,7 +57,7 @@
     }
 
     &__values {
-      @include grid-column($columns: 8, $offset: .5);
+      @include grid-column($columns: 7, $offset: .5);
       //padding: rem-calc(40 0);
     }
 
@@ -119,23 +119,69 @@
     }
   }
 
-  .teams-section {
-    @include grid-row();
+  .sidebar-section {
+    @include grid-row;
 
     &__header {
       @include grid-column($columns: 3);
-      height: rem-calc(400);
+      min-height: rem-calc(400);
       position: relative;
+    }
 
-      h2 {
-        position: absolute;
-        top: 50%;
-        transform: translate3d(0,-50%,0);
+    h2 {
+      position: absolute;
+      top: 50%;
+      transform: translate3d(0,-50%,0);
 
-        @media #{$small-only} {
-          padding-left: 22%;
-        }
+      @media #{$small-only} {
+        padding-left: 22%;
       }
     }
   }
+
+  
+
+  .teams-section {
+    @include grid-column($columns:8, $offset:.5);
+    display: flex;
+    flex-wrap: wrap;
+    padding: rem-calc(30 0 63 0);
+
+    &__project {
+      padding-right: 1rem;
+      margin-top: rem-calc(48);
+      width: 75%;
+    }
+    &__logo {
+      float: left;
+      width: percentage(2/6);
+      padding-top: percentage(2/6);
+      background-color: $light-gray;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 60% 60%;
+      opacity: 1;
+      transition: opacity $transition-speed;
+      &:hover { opacity: .8 }
+    }
+
+    &__text {
+      float: left;
+      width: percentage(4/6);
+      padding-left: rem-calc(16);
+    }
+
+    &__name {
+      margin-top: rem-calc(-5);
+      opacity: 1;
+      transition: opacity $transition-speed;
+      &:hover { opacity: .8 }
+    }
+
+    &__tagline {
+      font-size: rem-calc(20);
+    }
+  }
 }
+
+

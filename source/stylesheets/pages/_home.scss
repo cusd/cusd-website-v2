@@ -121,11 +121,12 @@
 
         li {
           display: block;
-          margin-bottom: rem-calc(24);
+          margin-bottom: rem-calc(22);
+          line-height: rem-calc(20);
         }
 
         .button {
-          right: 30%;
+          right: 20%;
         }
       }
     }
