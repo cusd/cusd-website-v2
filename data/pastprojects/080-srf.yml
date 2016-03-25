@@ -4,8 +4,16 @@ color: "#58C5C4"
 tagline: "A first-of-its-kind facility for interdisciplinary sustainability research"
 hero_image: "project-photos/srf-hero.jpg"
 lede: ""
-description: Insert cool description here
-  ""
+description: 
+  "<p>
+  The Sustainability Research Facility was an interdisciplinary student-led design-build project and research endeavor orchestrated by Cornell University Sustainable Design (CUSD).
+  </p> 
+  <p>
+  We partnered with the Institute for Computational Sustainability to design and construct a 3000 ft^2 modular building dedicated to catalyzing a new era in sustainable education and research. Born out of the innovative heritage of Cornell’s Solar Decathlon team, the structure was to be reconfigurable to emulate the building’s lifecycle, enabling exploration of methods and technologies that affect building system design and operation.
+  </p>
+  <p> 
+  The center not only offered a unique opportunity to integrate complex technology with engaging architectural features but promoted dynamic  public interaction with its innovative components.
+  </p>"
 photos:
   - url: project-photos/srf-1.jpg
     des: 
@@ -15,9 +23,13 @@ photos:
     des:
 impact:
   stats:
-    - title: Title 1
-      number: 100
-    - title: Title 2
-      number: 101
-    - title: Title 3
-      number: 102
+    - title:  >
+               Energies Implemented: 
+               Hydroelectric,  
+               BioFuel,  
+               Wind,
+               Solar
+    - title: Professors advising the project
+      number: 13
+    - title: Projected Size
+      number:  3000ft^2
