@@ -86,7 +86,7 @@
   .timeline {
     height: rem-calc(24);
     margin: rem-calc(250 0 280);
-    width: calc(95%);
+    width: calc(92%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -121,11 +121,12 @@
 
         li {
           display: block;
-          margin-bottom: rem-calc(24);
+          margin-bottom: rem-calc(22);
+          line-height: rem-calc(20);
         }
 
         .button {
-          right: 30%;
+          right: 12%;
         }
       }
     }

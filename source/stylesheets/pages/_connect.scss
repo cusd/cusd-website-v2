@@ -36,9 +36,14 @@
 		margin-top: rem-calc(48px);
 		width: 50%;
 
+		a {
+			outline: 0;
+		}
+
 		&__photo {
 			width: 25%;
 			float: left;
+
 
 
 			@media screen and (max-width: $small-breakpoint){

@@ -68,21 +68,24 @@ title: About
 
 <div class="photo-strip" style="background-image: url(/images/photostrips/ps4.jpg)"></div>
 
-<div class="teams-section">
-  <div class="teams-section__header"><h2>Horizontal Teams</h2></div>
+<div class="sidebar-section">
+  <div class="sidebar-section__header"><h2>Horizontal Teams</h2></div>
+
+    <div class="teams-section">
         <% data.teams.each do |project| %>
           <article class="teams-section__project">
-            <% link_to "/teams/#{project[0].split('-')[1]}" do %>
-              <div class="teams-section_project__logo <%= project[0].split('-')[1] %>" style="background-image: url(/images/<%= project[1].logo %>); background-color: <%= project[1].color %>"></div>
-            <% end %>
-            <div class="teams-section__project__text">
-              <% link_to "/teams/#{project[0].split('-')[1]}" do %>
-              <h3 class="teams-section__project__name"><%= project[1].name %></h3>
-              <% end %>
-              <span class="teams-section__project__tagline"><%= project[1].tagline %></span>
+        
+              <div class="teams-section__logo <%= project[0].split('-')[1] %>" style="background-image: url(/images/<%= project[1].logo %>); background-color: <%= project[1].color %>"></div>
+          
+            <div class="teams-section__text">
+            
+              <h3 class="teams-section__name"><%= project[1].name %></h3>
+           
+              <span class="teams-section__tagline"><%= project[1].tagline %></span>
             </div>
           </article>
         <% end %>
+    </div>
     </div>
 
     <div class="photo-strip" style="background-image: url(/images/photostrips/ps4.jpg)"></div>
