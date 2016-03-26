@@ -17,11 +17,9 @@ title: Connect
 
 
  <div class="contacts">
-        <% data.contact.each do |contact| %>
+  <% data.contact.each do |contact| %>
           <article class="contact">
-            <% link_to "/#{contact[0].split('-')[1]}" do %>
-             <a href="#middle"><img class="contact__photo" src=<%= contact[1].image %>></a>
-            <% end %>
+             <img class="contact__photo" src="<%= contact[1].image %>">
             <div class="contact__info">
               <h3 class="contact__info__name"><%= contact[1].name %></h3>
               <span class="contact__info__major"><i><%= contact[1].major %></i></span>

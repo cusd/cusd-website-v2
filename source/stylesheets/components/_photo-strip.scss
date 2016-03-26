@@ -6,6 +6,7 @@
   padding: rem-calc(72 10);
   min-height: rem-calc(165);
 
+
   &__text {
     @include grid-row();
 
@@ -15,6 +16,10 @@
       text-shadow: $subtle-text-shadow;
     }
   }
+
+ //&--lower {
+  //  background-position: 50% 70%;
+  //}
 
   &--showcase {
     min-height: rem-calc(500);
