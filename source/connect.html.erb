@@ -16,27 +16,23 @@ title: Connect
     </div>
 
 
- <div class="contacts">
-  <% data.contact.each do |contact| %>
-          <article class="contact">
-<<<<<<< HEAD
-             <img class="contact__photo" src="<%= contact[1].image %>">
-=======
-            <img class="contact__photo" src=<%= contact[1].image %>>
->>>>>>> ca9294a3c90be5418ddc5a6bf6202c03d683ba3c
-            <div class="contact__info">
-              <h3 class="contact__info__name"><%= contact[1].name %></h3>
-              <span class="contact__info__major"><i><%= contact[1].major %></i></span>
-              <span class="contact__info__position"><%= contact[1].position %></span>
-              <span class="contact__info__team"><%= contact[1].team %></span>
-              <span class="contact__info__links"><a href="<%= contact[1].email %>" class="email">Email</a><a href="<%= contact[1].linkedin %>" target="_blank" class="linkedin">LinkedIn</a></span>
-            </div>
-          </article>
-        <% end %>
+    <div class="contacts">
+      <% data.contact.each do |contact| %>
+      <article class="contact">
+       <img class="contact__photo" src="<%= contact[1].image %>">
+       <div class="contact__info">
+        <h3 class="contact__info__name"><%= contact[1].name %></h3>
+        <span class="contact__info__major"><i><%= contact[1].major %></i></span>
+        <span class="contact__info__position"><%= contact[1].position %></span>
+        <span class="contact__info__team"><%= contact[1].team %></span>
+        <span class="contact__info__links"><a href="<%= contact[1].email %>" class="email">Email</a><a href="<%= contact[1].linkedin %>" target="_blank" class="linkedin">LinkedIn</a></span>
       </div>
-
-
+    </article>
+    <% end %>
   </div>
+
+
+</div>
 </div>
 
 <div class="photo-strip" style="background-image: url(/images/photostrips/ps8.jpg)"></div>

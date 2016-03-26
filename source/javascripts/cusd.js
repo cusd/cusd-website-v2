@@ -44,7 +44,7 @@ function mobileMenu(){
   }
 }
 
-var valueList = ['.values-section__value--icon-impact', '.values-section__value--icon-diversity', '.values-section__value--icon-efficiency', '.values-section__value--icon-sustainability', '.values-section__value--icon-collaboration', '.values-section__value--icon-responsibility', '.values-section__value--icon-innovation', '.values-section__value--icon-engagement'];
+var valueList = ['.values-section__value--icon-impact', '.values-section__value--icon-collaboration', '.values-section__value--icon-responsibility', '.values-section__value--icon-diversity', '.values-section__value--icon-efficiency', '.values-section__value--icon-innovation', '.values-section__value--icon-engagement', '.values-section__value--icon-sustainability',];
 var mantis = "#81C36C";
 var oceanGreen = "#3FAB6D";
 var gulfStream = "#84C3BB";
@@ -63,10 +63,10 @@ $(document).ready(function () {
 function changeIcon(x) {
   if (x < valueList.length) {
     var val = valueList[x];
-    if (x == 0 || x == 3 || x == 6) {
+    if (x == 0 || x == 5 || x == 7) {
       $(val).css('background-color', mantis);
     }
-    else if (x == 1 || x == 4 || x == 7) {
+    else if (x == 1 || x == 3 || x == 6) {
       $(val).css('background-color', oceanGreen);
     }
     else {
