@@ -3,12 +3,9 @@ logo: project-logos/sd.svg
 color: "#5B264B"
 tagline: "The inspiration for CUSD"
 hero_image: "project-photos/sd-hero.jpg"
-lede: ""
+lede: "The Solar Decathalon was the orgin story for CUSD. We participated in the Solar Decathlon 3 times. We started with a sustainable house design, then moved onto the Cornell House with its featuring 'Light Canopy' and finished our time with the Solar Decathon with the Silo House."
 description: 
   "<p>
-  The Solar Decathalon was the orgin story for CUSD. We participated in the Solar Decathlon 3 times. We started with a sustainable house design, then moved onto the Cornell House with its featuring 'Light Canopy' and finished our time with the Solar Decathon with the Silo House.  
-  </p>
-  <p>
   The CUSD plan for the sustainable house design was unique as it combined a unique sense of architecture to allow daylight to fill the house despite the time of day. For night time, the team used compact fluorescent bulbs wiht an energy consumption of 15 to 30 watts throughout the house. The different perspectives that came into building our first project sowed the first seeds for potentially doing a larger quantity and wider range of projects.   
   </p>
   <p>
@@ -26,5 +23,5 @@ photos:
     des:
 impact:
   stats:
-    - title: Entries into the national Solar Decathlon competition
+    - title: Entries into the National Solar Decathlon Competition
       number: 3
