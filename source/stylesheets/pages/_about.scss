@@ -58,7 +58,9 @@
 
     &__values {
       @include grid-column($columns: 7, $offset: .5);
-      //padding: rem-calc(40 0);
+      @media #{$small-only} {
+        @include grid-column($columns: 7, $offset: 2);
+      }
     }
 
     &__value {
@@ -116,6 +118,12 @@
       width: 80%;
       color: $white;
       font-weight: $font-weight-bold;
+
+      @media #{$small-only} {
+        bottom: rem-calc(8);
+        font-size: 14px;
+      }
+
     }
   }
 
