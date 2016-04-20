@@ -23,6 +23,9 @@
 
   &--showcase {
     min-height: rem-calc(500);
+    @media #{$small-only} {
+      min-height: rem-calc(300);
+    }
   }
 
   &--hero {
