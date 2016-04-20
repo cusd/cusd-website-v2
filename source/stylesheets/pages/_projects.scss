@@ -34,6 +34,10 @@
       padding-right: 1rem;
       margin-top: rem-calc(48);
       width: 50%;
+      @media screen and (max-width: $small-breakpoint){
+        width: 100%;
+        padding: rem-calc(0 0);
+      }
 
       &__logo {
         float: left;
@@ -42,7 +46,7 @@
         background-color: $light-gray;
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: 55% 55%;
+        background-size: 52% 52%;
         opacity: 1;
         transition: opacity $transition-speed;
         &:hover { opacity: .8 }
@@ -71,7 +75,7 @@
 
       @media screen and (max-width: $small-breakpoint){
         width: 100%;
-        padding: rem-calc(20 10);
+        padding: rem-calc(20 0);
       }
 
       .projects-list__project {
