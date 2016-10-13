@@ -2,7 +2,7 @@ name: REDO
 logo: project-logos/elephant.png
 color: "#F18AAD"
 tagline: Rethinking Waste
-hero_image: "project-photos/redo-1.jpg"
+hero_image: "project-photos/redo-hero.jpg"
 lede: "Adding value to the Smithsonian Zoo by using animal waste products to create compost"
 description:
   "<p>
@@ -10,16 +10,18 @@ description:
   We see waste and doo not as a problem, but as unique assets with educational, social, environmental, and financial benefits. 
   </p>"
 photos:
-  - url: project-photos/redo-2.jpg
+  - url: project-photos/redo-1.jpg
     des: 
-  - url: project-photos/redo-3.png
+  - url: project-photos/redo-2.jpg
     des:
-  - url: project-photos/redo-4.jpg
+  - url: project-photos/redo-3.jpg
     des:
 impact:
   stats:
      - title: REDO
-       number: Recycling Elephant Doo Organically
+       number: 
+     - title: Recycling Elephant Doo Organically
+       number:
      - title: Smithsonian Institution National Zoo
        number: 
      - title: 
