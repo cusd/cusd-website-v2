@@ -196,6 +196,10 @@ line-height: 30px;
   /*border: solid 4px #FFFFFF;*/
 }
 
+.grey_back{
+  padding-bottom: 100px;
+  background-color: #A9A9A9;
+}
 .logo_adjust{
   margin-left: 3% !important;
 }
