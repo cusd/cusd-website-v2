@@ -27,7 +27,6 @@
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
-
 data.projects.each do |project|
   proxy "/projects/#{project[0].split('-')[1]}.html", "/projects/template.html", :locals => {project: project[1], short_name: project[0].split('-')[1]}, :ignore => true
 end
@@ -35,6 +34,10 @@ end
 data.pastprojects.each do |pastproject|
   proxy "/projects/#{pastproject[0].split('-')[1]}.html", "/projects/template.html", :locals => {project: pastproject[1], short_name: pastproject[0].split('-')[1]}, :ignore => true
 end
+
+# Specific case change for SEG
+# page "/test.html", :layout => "segfund"
+
 
 #data.teams.each do |team|
  # proxy "/teams/#{team[0].split('-')[1]}.html", "/projects/template.html", :locals => {project: team[1], short_name: team[0].split('-')[1]}, :ignore => true
