@@ -35,8 +35,7 @@ data.pastprojects.each do |pastproject|
   proxy "/projects/#{pastproject[0].split('-')[1]}.html", "/projects/template.html", :locals => {project: pastproject[1], short_name: pastproject[0].split('-')[1]}, :ignore => true
 end
 
-# Specific case change for SEG
-# page "/test.html", :layout => "segfund"
+
 
 
 #data.teams.each do |team|
