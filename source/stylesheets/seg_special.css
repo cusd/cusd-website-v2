@@ -2,6 +2,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
 }
 .fullWidth {
    padding: 10px;
@@ -268,6 +269,27 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
   text-align: left;
 
 }
+/*vimeo video stuff*/
+.vid_background{
+  margin-top:3px !important;
+  background-color: #377898;
+}
+
+.vid_background {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.vid_background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
 .foot_cont h4{
     /*margin: 0;*/
     font-weight: 900;
