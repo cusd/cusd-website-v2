@@ -36,6 +36,10 @@ data.pastprojects.each do |pastproject|
 end
 
 
+# Specific case change for SEG
+page '/projects/segfund.html', :layout => false
+
+
 
 
 #data.teams.each do |team|
