@@ -226,7 +226,7 @@ line-height: 30px;
 .homepage_hero{
 background: url(../img/hero.jpg) no-repeat;
 background-size: cover;
-height: 460px;
+height: 320px;
 position: relative;
 text-align: left;
 }
@@ -410,4 +410,8 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
 
 }
 
-
+.seg_logo{
+  margin-left: 200px;
+  height:137px;
+  width:300px;
+}
