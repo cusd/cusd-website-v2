@@ -431,8 +431,15 @@ text-align: left;
 .team_row{
   height:240px;
   width:110%;
-  color: grey;
 }
 .vam_logo{
   margin-left: 130px;
+}
+/*team image*/
+.team_image{
+background: url(../img/hero.jpg) no-repeat;
+background-size: cover;
+height: 320px;
+position: relative;
+text-align: left;
 }
