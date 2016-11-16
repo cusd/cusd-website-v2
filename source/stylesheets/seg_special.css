@@ -415,3 +415,24 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
   height:137px;
   width:300px;
 }
+/*about image*/
+.about{
+background: url(../img/hero.jpg) no-repeat;
+background-size: cover;
+height: 320px;
+position: relative;
+text-align: left;
+}
+.about_cont h4{
+    margin: 0;
+    padding: 13% 24%;
+    position: absolute;
+}
+.team_row{
+  height:240px;
+  width:110%;
+  color: grey;
+}
+.vam_logo{
+  margin-left: 130px;
+}
