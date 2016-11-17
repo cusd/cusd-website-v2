@@ -271,8 +271,9 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
 }
 /*vimeo video stuff*/
 .vid_background{
-  margin-top:3px !important;
+  /*margin-top:3px !important;*/
   background-color: #377898;
+  opacity: 0.8;
 }
 
 /*.vid_background {
@@ -432,8 +433,8 @@ height: 320px;
     position: absolute;
 }
 .team_row{
-  height:240px;
-  width:110%;
+  height:260px;
+  width:207%;
 }
 .vam_logo{
   margin-left: 130px;
