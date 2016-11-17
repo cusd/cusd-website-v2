@@ -466,7 +466,14 @@ text-align: left;
 .members{
   margin: 0 auto;
   display: block;
-  height:100px;
-  width:100px;
-  transition: opacity 0.7s ease;
+  height:150px;
+  width:150px;
+}
+
+.member{
+  font-weight: 400;
+}
+
+.member_info{
+  font-weight: 300;
 }
