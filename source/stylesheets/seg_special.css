@@ -417,10 +417,7 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
 }
 /*about image*/
 .about{
-background: url(../img/hero.jpg) no-repeat;
-background-size: cover;
-position: relative;
-text-align: left;
+color:#377898;
 }
 .about_hero{
 background: url(../img/hero.jpg) no-repeat;
@@ -476,4 +473,8 @@ text-align: left;
 
 .member_info{
   font-weight: 300;
+}
+
+.vam-text{
+  float: right;
 }
