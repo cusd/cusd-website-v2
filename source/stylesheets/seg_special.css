@@ -419,9 +419,15 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
 .about{
 background: url(../img/hero.jpg) no-repeat;
 background-size: cover;
-height: 320px;
 position: relative;
 text-align: left;
+}
+.about_hero{
+background: url(../img/hero.jpg) no-repeat;
+background-size: cover;
+position: relative;
+text-align: left;
+height: 320px;
 }
 .about_cont h4{
     margin: 0;
