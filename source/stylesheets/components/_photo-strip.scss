@@ -24,6 +24,13 @@
  //&--lower {
   //  background-position: 50% 70%;
   //}
+  &--seg {
+    min-height: rem-calc(240);
+    @media #{$small-only} {
+      min-height: rem-calc(300);
+    }
+  }
+
 
   &--showcase {
     min-height: rem-calc(500);

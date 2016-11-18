@@ -273,7 +273,7 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
 .vid_background{
   /*margin-top:3px !important;*/
   background-color: #377898;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 /*.vid_background {
@@ -329,7 +329,7 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
   opacity:.8;
 }
 .big_txt{
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 500;
 }
 .thin_txt{
@@ -417,7 +417,7 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
   width:300px;
 }
 /*about image*/
-.about{
+.about_head{
 color:#377898;
 }
 .about_hero{
@@ -469,11 +469,15 @@ text-align: left;
 }
 
 .member{
+  padding-top:4px;
   font-weight: 400;
+  font-size:17px;
 }
 
 .member_info{
+  font-size:15px;
   font-weight: 300;
+  line-height:18px;
 }
 
 .vam-text{

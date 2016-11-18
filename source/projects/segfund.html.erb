@@ -126,17 +126,16 @@
 </div>
 <!-- end stats piece -->
 <!-- about section -->
-<div class="about_hero about_cont">
-     <div class="photo-strip photo-strip--page-header" style="background-image: url(/images/seg/seg-about.jpg)">  
-			<h1 style="color: white; font-weight: bold; margin-left: 100px" > About </h1>
-           <br><br><br> 
-	</div>
+<div class="photo-strip photo-strip--seg" style="background-image: url(/images/seg/seg-about.jpg)">
+  <div class="photo-strip__text bumper">
+    <h1>About</h1>
+  </div>
 </div>
 <!-- purpose section -->
 <div class="row fullWidth">
 	<div class="backer">
-		<div class="large-offset-1 large-10 columns ">
-			<h1 style="color: blue"> Purpose </h1>
+		<div class="large-offset-1 large-6 columns ">
+			<h1 class="about_head"> Purpose </h1>
 			<p> Empower girls by providing a nurturing educational environment that fosters both intellectual and vocational exploration and growth. </p>
 		</div>
 	</div>
@@ -144,8 +143,8 @@
 <!-- Mission section -->
 <div class="row fullWidth">
 	<div class="backer">
-		<div class="large-offset-1 large-10 columns ">
-			<h1 style="color: blue"> Mission </h1>
+		<div class="large-offset-1 large-6 columns ">
+			<h1 class="about_head"> Mission </h1>
 			<p> Cultivate a love of learning that will inspire these girls to be active in advancing economic, social, and ecological sustainability in their communities in the future. </p>
 		</div>
 	</div>
@@ -154,8 +153,8 @@
 <!-- Vision section -->
 <div class="row fullWidth">
 	<div class="backer">
-		<div class="large-offset-1 large-10 columns ">
-			<h1 style="color: blue"> Vision </h1>
+		<div class="large-offset-1 large-6 columns ">
+			<h1 class="about_head"> Vision </h1>
 			<p>Create an emblem of educational opportunity, human-centered design, and sustainability in the Volta region. 
  </p>
 		</div>
@@ -166,45 +165,43 @@
 <div class="row fullWidth ">
 	<div class="large-6 columns">
 		<div class="team_row">
-			<div class="photo-strip photo-strip--page-header" style= "background-image: url(/images/seg/seg-team.jpg)">
-				<h1 style="font-weight:700;color: white" class="text_center_members"> The Team</h1>
-        <br><br>
-			</div>
+			<div class="photo-strip photo-strip--seg" style="background-image: url(/images/seg/seg-team.jpg)">
+  <div class="photo-strip__text bumper">
+    <h1>The Team</h1>
+  </div>
+</div>
 		</div>
 		<div class="row large-offset-2"> 
 			<h2 style="font-weight:500;"> Project directors </h2>
 		</div>
-		<div class="row large-offset-1">
-			<div class="large-6 columns">
+		<div class="row large-offset-2">
+			<div class="large-5 columns">
         <br>
 				<%= image_tag "images/seg/members/Claudia.jpg", class: "" %>
 			</div>
-			<div class="large-6 columns">
+			<div class="large-7 columns">
         <br>
 				<h3> Claudia Nelson</h3>
 				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui</p>
 			</div>
 		</div>
-		<div class="row large-offset-1">
+		<div class="row large-offset-2">
       <br>
-			<div class="large-6 columns">
+			<div class="large-5 columns">
 				<%= image_tag "images/seg/members/Arielle.jpg", class: "" %>
 			</div>
-			<div class="large-6 columns">
+			<div class="large-7 columns">
 				<h3> Arielle Tannin</h3>
 				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui</p>
 			</div>
 		</div>
 	</div>
-	<div class="large-6 columns">
+	<div class="large-5 columns">
 		<div class="row vid_background">
-			<iframe style= "margin-left:80px; margin-top:20px" src='https://player.vimeo.com/video/159445965' width=480 height=200 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<iframe style= "margin-left:25px; margin-top:20px" src='https://player.vimeo.com/video/159445965' width=427 height=200 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       <div class = "row large-offset-2">
         <br>
         <h2 style="font-weight:500; color:white; margin-left:20px"> Voices of African Mothers </h2>
-        <br>
-        <%= image_tag "/images/seg/vam.png", class: "vam_logo" %>
-        <br>
         <br>
           <p style="margin-left:-50px;margin-right:70px"> Lorem ipsum dolor sit amet, quo iisque phaedrum ad. Habeo diceret ea eum, altera aliquip ad sea. Vis ad omittam maluisse. Et pro hinc noster nominati, no odio lorem graeci cum. Vix equidem nostrum platonem in. At eam ludus honestatis, no ius audire mentitum torquatos.
             Soleat soluta an mei, cum cu epicurei definiebas. Consul doming quaeque mei ex, id ius elit tation. Vix latine vivendum te, in vim nihil dolore, duo an solet possim forensibus. Ei duo stet ignota graeco.
@@ -222,7 +219,6 @@
 
 <!-- end teams -->
 <!-- Majors section -->
-<br><br>
 <div class="row">
   <div class="large-block-grid-6 small-block-grid-6">
     <li>
@@ -273,6 +269,12 @@
        <article class="member_info">Materials Science and Engineering</article>
       </li>
 
+       <li>
+      <%= image_tag "images/seg/members/Sarah.jpg", class: "members" %>
+       <article class="member">Sarah McDonald</article>
+       <article class="member_info">Materials Science and Engineering</article>
+      </li>
+
     <li>
       <%= image_tag "images/seg/members/Sneha.jpg", class: "members" %>
        <article class="member">Sneha Kabaria</article>
@@ -288,16 +290,17 @@
        <article class="member">Brianna Hartner</article>
        <article class="member_info">Civil Engineering</article>
       </li>
-     <li>
-      <%= image_tag "images/seg/members/Thomas.jpg", class: "members" %>
-       <article class="member">Thomas Seusser</article>
-       <article class="member_info">Civil Engineering</article>
-      </li>
+    
   </div>
 </div>
 
 <div class="row">
   <div class="large-block-grid-6 small-block-grid-6">
+     <li>
+      <%= image_tag "images/seg/members/Thomas.jpg", class: "members" %>
+       <article class="member">Thomas Seusser</article>
+       <article class="member_info">Civil Engineering</article>
+      </li>
     <li>
       <%= image_tag "images/seg/members/Anamika.jpg", class: "members" %>
        <article class="member">Anamika Goyal</article>
@@ -325,15 +328,15 @@
        <article class="member">Nandini Nayar</article>
        <article class="member_info">Computer Science and Biology</article>
       </li>
+  </div>
+</div>
+<div class="row">
+  <div class="large-block-grid-6 small-block-grid-6">
      <li>
       <%= image_tag "images/seg/members/Carli.jpg", class: "members" %>
        <article class="member">Carli Fraccarolli</article>
        <article class="member_info">Environmental Engineering</article>
       </li>
-  </div>
-</div>
-<div class="row">
-  <div class="large-block-grid-6 small-block-grid-6">
     <li>
       <%= image_tag "images/seg/members/Becca.jpg", class: "members" %>
        <article class="member">Becca Merenbach</article>
@@ -350,6 +353,7 @@
        <article class="member_info">Design and Environmental Analysis</article>
       </li>
     </div>
+  </div>
 
 <!--  <div class="row">
   <ul class="large-block-grid-4 medium-block-grid-4 small-block-grid-2" style="margin: 35px;">
@@ -379,12 +383,10 @@
 </div> -->
 <!-- end majors -->
 <!-- Design process -->
-<div class="row fullWidth grey_back">
-	<div class="backer grey_back">
-		<div class="large-offset-2 large-8 columns ">
-			<h1 style="font-weight: bold"> Design Process </h1>
-		</div>
-	</div>
+<div class="photo-strip photo-strip--seg" style="background-image: url(/images/seg/seg-design.jpg)">
+  <div class="photo-strip__text bumper">
+    <h1>Design Process</h1>
+  </div>
 </div>
 <!-- 2015 -->
 <div class="row fullWidth">
