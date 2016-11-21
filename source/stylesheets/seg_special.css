@@ -492,3 +492,7 @@ text-align: left;
 .vam-text{
   float: right;
 }
+
+.year {
+  color: #377898;
+}
