@@ -494,7 +494,13 @@ text-align: left;
   font-weight: 400;
   font-size:17px;*/
 }
-
+.lead_realign{
+  height: 190px;
+  width: 212px;
+}
+.year_push{
+  margin-top: 10%;
+}
 .member_info{
   text-align: center;
   font-size:15px;
@@ -508,6 +514,9 @@ text-align: left;
 
 .vam-text{
   float: right;
+}
+.footy_space{
+  margin-bottom: 10%;
 }
 
 .year {
