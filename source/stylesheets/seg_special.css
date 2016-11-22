@@ -547,8 +547,10 @@ text-align: left;
     background-repeat: no-repeat;
 }
 .dummy{
-  height:20px;
-  width:20px;
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+  height: 30px;
+  width: 30px;
 }
 .the_email{
   left: -1.6875rem;
