@@ -185,54 +185,65 @@
 <!-- Background image attached to row -->
 <div class="row photo-strip photo-strip--seg fullWidth">
   <!-- left side of teams with claudia and arielle -->
-  <div class="large-6 columns">
-    <h1 style="text-align:center; background-color:blue;"> The Team </h1>
+  <div class="large-5 columns large-offset-1">
+    <h1 style=" background-color:blue;"> The Team </h1>
   </div> 
 
   <div class="large-6 columns"> 
     <!-- <h1 style="text-align:center; background-color:red;"> haaiii</h1> -->
-    <div id="iframer">
+    <div class="iframer">
       <iframe src='https://player.vimeo.com/video/159445965' width=427 height=200 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div> <!-- close iframer -->
   </div> <!-- right columns end -->
 </div> <!-- photo strip end -->
-<div class="row">
-  <!-- left side content -->
+
+<div class="row fullWidth">
+<!-- left side content -->
+<!-- ATTACH "dummy" below  to change this column to orange -->
   <div class="large-6 columns">
-    <div class="large-6 columns">
-       <%= image_tag "images/seg/members/Claudia.jpg", class: "" %>
-    </div>
-    <div class="large-6 columns">
-      <h3 class="">Claudia Nelson</h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui </p>
-      
-      <%= image_tag "images/seg/members/Claudia.jpg", class: "dummy" %>
-      <a class="text-center" href="mailto:cn253@cornell.edu"> Email </a>
-      <%= image_tag "images/seg/members/Claudia.jpg", class: "dummy" %>
-       <a class="text-center" href="https://www.linkedin.com/in/claudia-nielsen-97a2a1b2"> LinkedIn</a>
+    <!-- Claudia -->
+    <h2 class="top_marg bot_marg text-left large-offset-2"> Project Directors</h2>
+      <div class="large-6 text-center small-12 columns">
+         <%= image_tag "images/seg/members/Claudia.jpg", class: "shrinky" %>
+      </div>
+      <div class="large-6 small-12 columns bot_marg">
+        <h3 class="">Claudia Nelson</h3>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui </p>
+        <a class="text-center" href="mailto:cn253@cornell.edu">
+        <%= image_tag "images/icons/email.png", class: "img_aligner_email" %>
+         Email </a>
+         <a class="text-center" href="https://www.linkedin.com/in/claudia-nielsen-97a2a1b2">
+        <%= image_tag "images/icons/linkedin.png", class: "img_aligner_linkedin" %>
+        LinkedIn</a>
+      </div>
+    <!-- Arielle -->
+      <div class="large-6 text-center medium-12 small-12 columns">
+         <%= image_tag "images/seg/members/Arielle.jpg", class: "shrinky" %>
+      </div>
+      <div class="large-6 small-12 columns bot_marg">
+        <h3 class="">Arielle Tannin</h3>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui </p>
+        <a class="text-center" href="mailto:adt56@cornell.edu">
+        <%= image_tag "images/icons/email.png", class: "img_aligner_email" %>
+        Email </a>
+        <a class="text-center" href="https://www.linkedin.com/in/arielle-tannin-632094a9?trk=nav_responsive_tab_profile_pic"> 
+        <%= image_tag "images/icons/linkedin.png", class: "img_aligner_linkedin" %>
+        LinkedIn</a>
+      </div>
 
 
-    </div>
+  </div> <!-- end left side stuff -->
 
-
-
-      <div class="large-6 columns">
-       <%= image_tag "images/seg/members/Claudia.jpg", class: "" %>
-    </div>
-    <div class="large-6 columns">
-      <h3 class="">Claudia Nelson</h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui </p>
-
-      <%= image_tag "images/seg/members/Claudia.jpg", class: "dummy" %>
-      <a class="text-center" href="mailto:cn253@cornell.edu"> Email </a>
-      <%= image_tag "images/seg/members/Claudia.jpg", class: "dummy" %>
-       <a class="text-center" href="https://www.linkedin.com/in/claudia-nielsen-97a2a1b2"> LinkedIn</a>
-    </div>
-
-  </div>
   <!-- right side content -->
-  <div class="large-6 columns">
+  <div class="large-6 columns blueish">
+    <h2 class="top_marg bot_marg text-center"> Voices of African Mothers</h2>
+    <p class="text-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui</p>
+    <a class="text-left" style="color:white" href="http://www.vamothers.org/"> Check out their website here</a>
   </div>
+
+
+
+
 </div> <!-- end main row -->
 
 

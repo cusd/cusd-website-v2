@@ -419,6 +419,9 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
   }
   .tagger_2{
   }
+  .shrinky{
+    padding:10%;
+  }
 }
 @media screen and (min-width: 641px) {
   .tagger_1{
@@ -517,7 +520,7 @@ text-align: left;
   margin-left:3%;
   margin-top:20px;
 }*/
-#iframer {
+.iframer {
   text-align: center;
   width:100%;
   /*for debuggin*/
@@ -534,33 +537,41 @@ text-align: left;
 .linkedin_icon{
 
 }
-.email_icon{
-   display: inline-block;
-    float:left;
-    width: 32px;
-    height: 32px;
-    margin-top: 4px;
-    margin-right:10px;
-    line-height: 32px;
-    background-image: url("../images/seg/members/Claudia.jpg");
-    background-position: 0 0;
-    background-repeat: no-repeat;
+.shrinky{
+  padding: 5%;
 }
-.dummy{
+.top_marg{
+  margin-top: 10%;
+}
+.bot_marg{
+  margin-bottom: 10%;
+}
+.img_aligner_email{
   vertical-align: middle;
   margin-bottom: 0.75em;
-  height: 30px;
-  width: 30px;
+  height: 15px;
+  width: 25px;
+
 }
-.the_email{
-  left: -1.6875rem;
-  width: 1.3125rem;
-  background: url(../images/seg/members/Claudia.jpg) center center/1.3125rem 0.875rem no-repeat;
-  /*background: url(");*/
+.img_aligner_linkedin{
+  margin-left: 2%;
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+  height: 20px;
+  width: 20px;
 }
-.email_help{
-  display: inline-block; overflow: hidden;
+.blueish{
+  /*background-color: #377898;*/
+  background: rgb(55,120,152);
+  /*opacity: .6;*/
 }
+.dummy{
+  /*background-color: #E04D25;*/
+  background: rgb(224,77,37);
+  /*filter:brightness(90%);*/
+  /*opacity: .6;*/
+}
+
 .vam-text{
   float: right;
 }
