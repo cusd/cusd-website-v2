@@ -56,11 +56,11 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #4a4a4a;
   cursor: auto;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 200;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -3750,7 +3750,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  color: #222222;
+  color: #4a4a4a;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important;
   font-style: normal;
   font-weight: normal;
@@ -3932,15 +3932,15 @@ blockquote p {
 @media only screen and (min-width: 40.0625em) {
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4; }
-
+/*lots of mods here because annoying*/
   h1 {
-    font-size: 2.75rem; }
+    font-size: 3.75rem; }
 
   h2 {
     font-size: 2.3125rem; }
 
   h3 {
-    font-size: 1.6875rem; }
+    /*font-size: 1.6875rem;*/ }
 
   h4 {
     font-size: 1.4375rem; }

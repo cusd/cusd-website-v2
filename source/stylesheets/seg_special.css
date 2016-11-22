@@ -400,13 +400,16 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
   padding:0.575rem 2.75rem 0.5375rem 2.75rem  !important;
   font-size: .9125rem;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  margin:2%;
+  margin:4%;
 }
 .resize{
   width:30%;
 }
 .spacer{
   /*padding:10px;*/
+}
+.backgrd{
+  background-image: url(/images/seg/seg-team.jpg);
 }
 
 
@@ -510,16 +513,52 @@ text-align: left;
   font-weight: 300;
   line-height:18px;
 }
-.iframeMods{
+/*.iframeMods{
   margin-left:3%;
   margin-top:20px;
+}*/
+#iframer {
+  text-align: center;
+  width:100%;
+  /*for debuggin*/
+  background-color: red;
+}
+.iframe{
+  width: 200px;
 }
 .border_add{
   border-style: solid;
   height: 300px;
   width:600px;
 }
+.linkedin_icon{
 
+}
+.email_icon{
+   display: inline-block;
+    float:left;
+    width: 32px;
+    height: 32px;
+    margin-top: 4px;
+    margin-right:10px;
+    line-height: 32px;
+    background-image: url("../images/seg/members/Claudia.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.dummy{
+  height:20px;
+  width:20px;
+}
+.the_email{
+  left: -1.6875rem;
+  width: 1.3125rem;
+  background: url(../images/seg/members/Claudia.jpg) center center/1.3125rem 0.875rem no-repeat;
+  /*background: url(");*/
+}
+.email_help{
+  display: inline-block; overflow: hidden;
+}
 .vam-text{
   float: right;
 }
