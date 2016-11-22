@@ -402,6 +402,9 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   margin:2%;
 }
+.resize{
+  width:30%;
+}
 .spacer{
   /*padding:10px;*/
 }
@@ -510,6 +513,11 @@ text-align: left;
 .iframeMods{
   margin-left:3%;
   margin-top:20px;
+}
+.border_add{
+  border-style: solid;
+  height: 300px;
+  width:600px;
 }
 
 .vam-text{
