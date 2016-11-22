@@ -341,9 +341,12 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
   font-weight: 200;
 }
 .side_fix{
-  margin: 0px;
+  margin: 0 12%;
 }
-
+.icon_fix{
+  text-align: center;
+  padding-top: 10px;
+}
 
 
 /*stuff for blogs show more button*/
@@ -465,8 +468,8 @@ text-align: left;
 .cusd_logo{
   margin: 0 auto;
   display: block;
-  height:150px;
-  width:154px;
+  /*height:150px;*/
+  /*width:154px;*/
   transition: opacity 0.7s ease;
 }
 /*.members{
