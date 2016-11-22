@@ -479,25 +479,28 @@ text-align: left;
   /*width:154px;*/
   transition: opacity 0.7s ease;
 }
-/*.members{
+.members{
   margin: 0 auto;
   display: block;
   height:150px;
   width:150px;
-}*/
+  text-align: center;
+}
 
 .member{ 
   margin:0;
+  text-align: center;
 /*  padding-top:4px;
   font-weight: 400;
   font-size:17px;*/
 }
 
-/*.member_info{
+.member_info{
+  text-align: center;
   font-size:15px;
   font-weight: 300;
   line-height:18px;
-}*/
+}
 .iframeMods{
   margin-left:3%;
   margin-top:20px;
