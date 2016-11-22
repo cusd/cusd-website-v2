@@ -27,12 +27,12 @@ html, body {
   transition: opacity 0.7s ease;
 }
 .top-bar-section .right{margin-right: 4%;}
-
+/*
 .logo img{
   display: block;
   margin-top: 5px;
   width:65px;
-  height:65px;
+  height:65px;*/
 }
 .top_logo{
   transition: opacity 0.7s ease;
@@ -57,11 +57,12 @@ html, body {
    margin-right: auto;
    max-width: initial;
 }
-.text_center{
+
+.head_text{
 text-align: center;
-vertical-align: middle;
-line-height: 90px;
+font-size: 28px;
 }
+
 .text_center_team{
 text-align: center;
 vertical-align: middle;
@@ -234,7 +235,7 @@ line-height: 30px;
 }
 
 /*hero image*/
-.homepage_hero{
+/*.homepage_hero{
 background: url(../img/hero.jpg) no-repeat;
 background-size: cover;
 height: 270px;
@@ -261,9 +262,9 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
     height: 200px;
     position: relative;
     text-align: left;
-}
+}*/
 .foot_hero{
-  background:url(../images/project-photos/seg_hero_blue.jpg) no-repeat;
+  background:url(../images/seg/footer.jpg) no-repeat;
 
 
 /*  background:   linear-gradient(
@@ -275,7 +276,7 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
   /*background: url("../img/seg-hero.jpg") repeat scroll 0 0 #074E68;*/
   background-position: 41% 56%;
   background-size: 100%;
-  height: 275px;
+  height: 260px;
   position: relative;
   text-align: left;
 
@@ -397,13 +398,13 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
 }
 
 .button_mod{
-  padding:0.575rem 2.75rem 0.5375rem 2.75rem  !important;
+  /*padding:0.575rem 2.75rem 0.5375rem 2.75rem  !important;*/
   font-size: .9125rem;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   margin:4%;
 }
 .resize{
-  width:30%;
+  width:14%;
 }
 .spacer{
   /*padding:10px;*/
@@ -431,7 +432,7 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
 
 }
 .top_margin{
-  margin-top: 8%;
+  margin-top: 5%;
 }
 
 .seg_logo{
@@ -442,6 +443,7 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
 /*about image*/
 .about_head{
 color:#377898;
+font-size:36px;
 }
 .about_hero{
 background: url(../img/hero.jpg) no-repeat;
@@ -460,9 +462,7 @@ height: 320px;
   width:207%;
   opacity: .99;
 }
-.vam_logo{
-  margin-left: 130px;
-}
+
 /*team image*/
 .team_image{
 background: url(../img/hero.jpg) no-repeat;
@@ -481,10 +481,18 @@ text-align: left;
 .cusd_logo{
   margin: 0 auto;
   display: block;
-  /*height:150px;*/
-  /*width:154px;*/
-  transition: opacity 0.7s ease;
 }
+
+.vam_logo{
+  margin: -15px 0px 0px 0px;
+  display: block;
+  min-height: 190px;
+}
+
+  .team_all{
+    padding-bottom:40px;
+  }
+
 .members{
   margin: 0 auto;
   display: block;
@@ -495,8 +503,7 @@ text-align: left;
 
 .member{ 
   margin:0;
-  text-align: center;
-/*  padding-top:4px;
+  padding-top:4px;
   font-weight: 400;
   font-size:17px;*/
 }
@@ -505,13 +512,13 @@ text-align: left;
   width: 212px;
 }
 .year_push{
-  margin-top: 10%;
+  margin-top: 6%;
 }
 .member_info{
-  text-align: center;
   font-size:15px;
   font-weight: 300;
   line-height:18px;
+  margin-top:-2px;
 }
 /*.iframeMods{
   margin-left:3%;
@@ -566,6 +573,18 @@ text-align: left;
   margin-bottom: 10%;
 }
 
+.footer_text{
+  font-weight:500;
+  text-align:center;
+  color: white;
+}
+
 .year {
   color: #377898;
+}
+
+.timeline_header {
+  text-align: center;
+  padding-bottom: 12px;
+  font-size: 26px;
 }
