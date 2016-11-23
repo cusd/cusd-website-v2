@@ -541,6 +541,16 @@ text-align: left;
   height: 300px;
   width:600px;
 }
+.block_img{
+  height:200px;
+  width: 310px;
+}
+.block_img_archi{
+  border-style: solid;
+  height:200px;
+  width: 310px;
+
+}
 .linkedin_icon{
 
 }
