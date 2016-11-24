@@ -405,6 +405,7 @@ background: url("../img/hero.jpg") repeat scroll 0 0 #074E68;
 }
 .resize{
   width:14%;
+  background-color: white;
 }
 .spacer{
   /*padding:10px;*/
@@ -610,4 +611,8 @@ text-align: left;
   text-align: center;
   padding-bottom: 12px;
   font-size: 26px;
+}
+
+.donate_button {
+  background-color: white;
 }
