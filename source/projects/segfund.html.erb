@@ -199,7 +199,7 @@
   </div> <!-- right columns end -->
 </div> <!-- photo strip end -->
 
-<div class="row fullWidth">
+<div class="row">
 <!-- left side content -->
 <!-- ATTACH "dummy" below  to change this column to orange -->
   <div class="large-7 columns">
@@ -543,7 +543,6 @@
 </div>
 </div>
 
-	<!-- DONT TOUCH THIS PIECE BELOW -->
 
     <!-- footer with pic-->
     <div class="foot_hero foot_cont">
@@ -552,7 +551,9 @@
        <h4 class="footer_text">If you support our mission, please consider donating so we can begin construction in December 2016</h4>
      </div>
           <section class="text-center button_fix button_mod">
-         <li><%= link_to 'Donate', '/donate.html' %></li>
+         <!-- <li> -->
+          <% content_tag :a, href:'/donate', :class => "button" do %> Donate <% end %>
+        <!-- </li> -->
       </section>
   </div>
   <!-- end footer with pic -->
