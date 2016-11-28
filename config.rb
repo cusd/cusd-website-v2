@@ -36,12 +36,6 @@ data.pastprojects.each do |pastproject|
 end
 
 
-# Specific case change for SEG
-page '/projects/segfund.html', :layout => false
-
-
-
-
 #data.teams.each do |team|
  # proxy "/teams/#{team[0].split('-')[1]}.html", "/projects/template.html", :locals => {project: team[1], short_name: team[0].split('-')[1]}, :ignore => true
 #end
