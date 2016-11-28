@@ -1,4 +1,12 @@
 /*custom.css*/
+
+
+/*remove this(also in layout, and modify line 500 in _global.css) when done with seg*/
+.head_fix{
+  margin-top:-5px;
+}
+
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -489,10 +497,12 @@ text-align: left;
 
 .vam_logo{
   margin: -15px 0px 0px 0px;
-  display: block;
-  min-height: 190px;
+  /*display: block;*/
+  /*min-height: 190px;*/
 }
-
+.vam_align{
+  margin-top:2%;
+}
   .team_all{
     padding-bottom:40px;
   }

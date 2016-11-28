@@ -485,6 +485,7 @@ $cursor-text-value: text !default;
 
   @if $include-html-global-classes {
 
+// WHY IS THIS CAUSING SUCH A PROBLEM GOING 100 TO 90 % 
     // Must be 100% for off canvas to work
     html, body { height: 100%; }
 
@@ -496,8 +497,8 @@ $cursor-text-value: text !default;
     }
 
     html,
-    body { font-size: $base-font-size; }
-
+    body { font-size: 90%; }
+      // was $base-font-size
     // Default body styles
     body {
       background: $body-bg;
