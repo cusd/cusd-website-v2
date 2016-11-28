@@ -572,7 +572,7 @@ text-align: left;
 }
 .img_aligner_email{
   vertical-align: middle;
-  margin-bottom: 0.75em;
+  margin-bottom: 0.20em;
   height: 15px;
   width: 25px;
 
@@ -580,7 +580,7 @@ text-align: left;
 .img_aligner_linkedin{
   margin-left: 2%;
   vertical-align: middle;
-  margin-bottom: 0.75em;
+  margin-bottom: 0.20em;
   height: 20px;
   width: 20px;
 }
